@@ -7,7 +7,7 @@ main .section.hero-video-container {
     width: 100% !important;
     padding: 0 !important;
     max-width: unset;
-    height: 800px;
+    height: 500px;
     min-height: auto;
   }
   
