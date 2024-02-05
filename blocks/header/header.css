@@ -227,13 +227,18 @@ header nav .nav-sections ul > li > ul > li {
     display: flex;
     gap: 2em;
     margin: 0;
+    float: right;
     font-size: var(--body-font-size-xs);
   }
 
   header nav .nav-sections .default-content-wrapper > ul > li {
     flex: 0 1 auto;
     position: relative;
-    font-weight: 500;
+    font-family: Roboto,Arial,Helvetica,sans-serif;
+    font-weight: 700;
+    color: #122b4e;
+    padding: 0.75rem 1.25rem;
+    font-size: .875rem;
   }
 
   header nav .nav-sections .default-content-wrapper > ul > li > ul {
