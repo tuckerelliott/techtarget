@@ -101,6 +101,16 @@ p {
   line-height: 1.25;
 }
 
+h2 {
+  color: #122B4B;
+}
+
+h5 {
+  color: #b72f06;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
 p, dl, ol, ul, pre, blockquote {
   margin-top: 1em;
   margin-bottom: 1em;
@@ -127,12 +137,13 @@ main pre {
   white-space: pre;
 }
 
-/* links 
+/* links */
 a:any-link {
   color: var(--link-color);
+  font-weight: 700;
   text-decoration: none;
 }
-*/
+
 
 a:hover {
   text-decoration: underline;
